@@ -1,0 +1,68 @@
+@media screen and (max-width: 480px) {
+    .sectionHeader h1 span{
+        padding-left:5px;
+        padding-right:5px;
+    }
+    .subHeader {
+        line-height: 1.3em;
+        text-align: center;
+    }
+    .jobImgBox h2{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 775px) {
+    .brands .col-lg-2 {
+         padding-top: 0px;
+    }
+    .round-services-container .rsl-title h2{
+        font-size: 45px;
+    }
+    .round-services-container{
+        padding-top:0px;
+
+    }
+    .sectionBox .jobRow {
+        margin-bottom: 30px;
+    }
+    .callToBox {
+        margin-top: -15px;
+        padding-top: 78px;
+
+    }
+    .wrapper {
+        padding-top: 0px;
+    }
+    .footerServices li, #footer h3{
+        text-align: center;
+    }
+    .logoFooter{
+        max-height: 50px;
+        margin-top: -50px;
+        margin-bottom: 15px;
+    }
+    #contacto {
+        padding-top: 60px;
+        height: 800px;
+    }
+}
+@media screen and (min-width: 768px) {
+    #contact-form{
+        padding: 0px 50px;
+    }
+}
+
+@media screen and (min-width: 1260px) {
+    .jobRow .col-md-6:nth-of-type(1){
+        padding-right:30px;
+    }
+    .jobRow .col-md-6:nth-of-type(2){
+        padding-left:30px;
+    }
+}
+@media only screen and (min-width: 1154px){
+    .round-services-container {
+        padding: 30px 0 49px;
+    }
+
+}
