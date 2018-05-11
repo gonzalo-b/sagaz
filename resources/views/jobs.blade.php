@@ -8,7 +8,7 @@
     <div class="row jobRow rowSwapImg1">
         <div class="col-md-6 jobImgBox">
             <figure>
-                <img src="/img/MyBigYellowBus.jpg">
+                <img src="/img/mybigyellowbus.jpg">
             </figure>
         </div>
         <div class="col-md-6 rowSwapHead1">
@@ -36,7 +36,7 @@
         </div>
         <div class="col-md-6 jobImgBox">
             <figure>
-                <img src="/img/ClickPassGoal.jpg">
+                <img src="/img/clickpassgoal.jpg">
             </figure>
         </div>
     </div>
@@ -44,7 +44,7 @@
     <div class="row jobRow">
         <div class="col-md-6 jobImgBox rowSwapImg2 ">
             <figure>
-                <img src="/img/EuroConfort.jpg">
+                <img src="/img/euroconfort.jpg">
             </figure>
         </div>
         <div class="col-md-6 rowSwapHead2">
