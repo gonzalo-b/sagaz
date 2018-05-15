@@ -22,11 +22,13 @@
                             <li>&#9672;
                                 Mobile Apps</li>
                             <li>&#9672;
-                                E-Comerce</li>
+                                Progresive Web Applications (PWA)</li>
                         </ul>
                     </div>
                     <div class="col-lg-6">
                         <ul class="footerServices">
+                            <li>&#9672;
+                                E-Comerce</li>
                             <li>&#9672;
                                 Branding y diseño de logos</li>
                             <li>&#9672;
