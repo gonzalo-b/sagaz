@@ -2,7 +2,7 @@
 
 </div>
 <div id="contacto" class="form-section">
-    <div class="form-container center container">
+    <div class="form-container center container" id="contactForm">
         <h2 class="contactH">¡Contactános!</h2>
         <div class="clearfix"></div>
         <form name="contact-form" id="contact-form" method="post" action="{{url('contacto')}}" enctype="multipart/form-data">
@@ -38,7 +38,11 @@
             </div>
         </form>
     </div>
+    <div id="contactSuccess">
+        <h2 class="contactH">Tu mensaje ha sido enviado</h2>
+        <h3>En el transcurso de 2 días habiles nueestro equipo se pondra en contacto.</h3>
+        <img src="/img/logoBiger.png">
+    </div>
 </div>
 <div class="contactBotBg">
-
 </div>

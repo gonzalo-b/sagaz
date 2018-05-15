@@ -171,7 +171,7 @@ text-align: center;
 .center {
     text-align: center;
 }
-.btn-sagaz{
+.btn-sagaz, .swal2-modal .swal2-styled{
     font-family: NoodleOblique, "Helvetica", Arial, sans-serif;
     text-transform: uppercase;
     color: #ffffff;
@@ -181,6 +181,16 @@ text-align: center;
     font-size: 2.5em;
     -webkit-transition: all .3s ease-out;
     transition: all .5s ease-out;
+}
+.swal2-modal .swal2-styled{
+    padding: 8px 50px !important;
+
+}
+
+.btn-sagaz:hover, .swal2-modal .swal2-styled:hover{
+    border-radius: 50px;
+    color: #16ffbb;
+    background-color: #3a05ad;
 }
 .brands{
     margin-top:35px;
@@ -282,6 +292,7 @@ text-align: center;
     margin-top: -28px;
 }
 #contacto{
+    /*min-height: 500px;*/
     /*background-image: url("/img/FullContactBg.png");*/
     background-color: #0be2b8;
     /* Set a specific height */
@@ -363,7 +374,7 @@ text-align: center;
     font-size: 14px;
     line-height: 1.6em;
 }
-.logoFooter{
+.logoFooter, .logoFooter2{
     max-height: 150px;
 }
 .noTitle{
@@ -427,11 +438,19 @@ text-align: center;
 .mainNavigation .navi li a{
     color: #ccfff0;
 }
-.btn-sagaz:hover{
-    border-radius: 50px;
-    color: #16ffbb;
-    background-color: #3a05ad;
+
+#contactSuccess{
+    text-align: center;
+    display: none;
 }
+#contactSuccess h3{
+    color: #ffffff;
+    padding: 10px 0px 50px 0px;
+}
+#contactSuccess img{
+    width: 150px;
+}
+
 /*Stroke*/
 
 nav ul li a,
@@ -463,11 +482,20 @@ nav.fill ul li a:after {
 nav.stroke ul li a:hover:after {
     width: 100%;
 }
+.fixed{
+    position: fixed;
+    left: 50px;
+    right: 0px;
+    top: 0px;
+}
 /* Shine */
 .shine {
     position: relative;
     -webkit-transition: 5s ease-in-out;
     transition: 5s ease-in-out;
+}
+.hamburger{
+    display: none;
 }
 .shine::before {
     position: absolute;
@@ -513,4 +541,7 @@ nav.stroke ul li a:hover:after {
     user-select: none;
     position: relative;
     /*padding: 1.5rem 3rem;*/
+}
+.home-new-section{
+    margin-top:40px;
 }

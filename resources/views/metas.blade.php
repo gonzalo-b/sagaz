@@ -6,7 +6,7 @@
 <meta property="og:type" content="website">
 <meta name="description" content="Sagaz - Estudio creativo digital">
 <meta property="og:description" content="Sagaz - Estudio creativo digital">
-<meta property="og:image" content="{{ url('/img/logo.png') }}">
+<meta property="og:image" content="{{ url('/img/favicon.png') }}">
 <meta property="og:image:width" content="119">
 <meta property="og:image:height" content="58" >
 <link rel="canonical" href="">

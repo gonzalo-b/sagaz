@@ -15,24 +15,32 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <ul class="footerServices">
-                            <li>&#9672; Consultoría y posicionamiento de Marca</li>
-                            <li>&#9672; Websites y CMS a medida</li>
-                            <li>&#9672; Mobile Apps</li>
-                            <li>&#9672; E-Comerce</li>
+                            <li>&#9672;
+                                Consultoría y posicionamiento de Marca</li>
+                            <li>&#9672;
+                                Websites y CMS a medida</li>
+                            <li>&#9672;
+                                Mobile Apps</li>
+                            <li>&#9672;
+                                E-Comerce</li>
                         </ul>
                     </div>
                     <div class="col-lg-6">
                         <ul class="footerServices">
-                            <li>&#9672; Branding y diseño de logos</li>
-                            <li>&#9672; Marketing Digital</li>
-                            <li>&#9672; Gestion de campañas publicitarias</li>
-                            <li>&#9672; Locución</li>
+                            <li>&#9672;
+                                Branding y diseño de logos</li>
+                            <li>&#9672;
+                                Marketing Digital</li>
+                            <li>&#9672;
+                                Gestion de campañas publicitarias</li>
+                            <li>&#9672;
+                                Locución</li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-4 center">
-                <img class="logoFooter" src="/img/logoInverted.png">
+                <img class="logoFooter2" src="/img/logoInverted.png">
             </div>
         </div>
         <div class="row">

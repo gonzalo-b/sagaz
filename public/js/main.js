@@ -71,7 +71,15 @@ $(function () {
                 url:'/contacto',
                 data:{firstname:firstname, lastname:lastname, mensaje:mensaje, email:email, phone:phone},
                 success:function(data){
-                    alert(data.success);
+                    $('#contactForm').hide();
+                    swal({
+                        position: 'top-end',
+                        type: 'success',
+                        title: '¡Tu mensaje ha sido enviado!',
+                        showConfirmButton: false,
+                        timer: 1500
+                    })
+                    $('#contactSuccess').show();
                 }
             });
         }else{
@@ -81,11 +89,22 @@ $(function () {
     });
 
     // Image 3d
-
     $(".jobImgBox").hover3d({
         selector: "figure",
         shine: true,
         sensitivity: 30,
+    });
+
+    // Handle Hamburger
+    $(document).scroll(function() {
+        var y = $(this).scrollTop();
+        var target = $('#servicios').offset().top;
+        console.log(target+' | '+y);
+        if (y > target) {
+            $('.hamburger').fadeIn();
+        } else {
+            $('.hamburger').fadeOut();
+        }
     });
 });
 

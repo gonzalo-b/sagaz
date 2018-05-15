@@ -10,5 +10,35 @@
                 </ul>
             </nav>
         </div>
+        <div class="fixed" id="mobileNav ">
+            <div class="hamburger js-hover overlay-close" id="trigger-overlay">
+                <div class="hamburger__line hamburger__line--01">
+                    <div class="hamburger__line-in hamburger__line-in--01"></div>
+                </div>
+                <div class="hamburger__line hamburger__line--02">
+                    <div class="hamburger__line-in hamburger__line-in--02"></div>
+                </div>
+                <div class="hamburger__line hamburger__line--03">
+                    <div class="hamburger__line-in hamburger__line-in--03"></div>
+                </div>
+                <div class="hamburger__line hamburger__line--cross01">
+                    <div class="hamburger__line-in hamburger__line-in--cross01"></div>
+                </div>
+                <div class="hamburger__line hamburger__line--cross02">
+                    <div class="hamburger__line-in hamburger__line-in--cross02"></div>
+                </div>
+            </div>
+        </div>
     </div>
 </nav>
+<div class="overlay overlay-hugeinc">
+    <button type="button" class="overlay-close">Close</button>
+    <nav>
+        <ul>
+            <li><a class="mNavLink" href="#inicio"> Inicio</a></li>
+            <li><a class="mNavLink" href="#portfolio"> Portfolio</a></li>
+            <li><a class="mNavLink" href="#servicios"> Servicios</a></li>
+            <li><a class="mNavLink" href="#contacto"> Contacto</a></li>
+        </ul>
+    </nav>
+</div>

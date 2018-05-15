@@ -21,10 +21,10 @@
 <div class="wrapper">
     @include('navigation')
     @include('header')
+    @include('servicios')
     @include('jobs')
     @include('brands')
     @include('callToAction')
-    @include('servicios')
     @include('contacto')
     @include('footer')
 </div>
