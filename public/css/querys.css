@@ -1,3 +1,15 @@
+@media screen and (max-width: 350px){
+    .sectionHeader h1 {
+        font-size: 6em;
+    }
+    .sectionHeader h1 span {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .btn-sagaz{
+        font-size: 2em;
+    }
+}
 @media screen and (max-width: 480px) {
     .sectionHeader h1 span{
         padding-left:5px;
@@ -9,6 +21,9 @@
     }
     .jobImgBox h2{
         text-align: center;
+    }
+    .jobImgBox figure{
+        height: 250px;
     }
 }
 @media screen and (max-width: 775px) {
