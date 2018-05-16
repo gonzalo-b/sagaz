@@ -31,4 +31,6 @@ mix.scripts([
     'bower_components/ParticleEffectsButtons/js/anime.min.js',
     'bower_components/ParticleEffectsButtons/js/particles.js',
     'bower_components/sweetalert2/dist/sweetalert2.min.js',
+    // 'bower_components/bubbles/sketch.min.js',
+    // 'bower_components/bubbles/bubbles.js',
 ], 'public/js/all.js');

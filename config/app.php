@@ -150,7 +150,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        OwenMelbz\PwaManifest\PwaManifestServiceProvider::class,
         /*
          * Application Service Providers...
          */
