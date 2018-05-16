@@ -9,6 +9,9 @@
     .btn-sagaz{
         font-size: 2em;
     }
+    .masthead {
+        height: 45vh;
+    }
 }
 @media screen and (max-width: 480px) {
     .sectionHeader h1 span{
