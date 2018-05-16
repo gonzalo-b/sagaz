@@ -16312,6 +16312,7 @@ body.swal2-iosfix {
 	height: 100%;
 	top: 0;
 	left: 0;
+	z-index: 999;
 	/*background: rgba(11,226,184,0.9);*/
 	background-color: #3f3458;
 }
