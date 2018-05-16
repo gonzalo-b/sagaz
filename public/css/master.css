@@ -289,9 +289,10 @@ text-align: center;
     background-size: cover;
     width: 100%;
     height: 220px;
-    margin-top: -28px;
+    /*margin-top: -28px;*/
 }
 #contacto{
+    position: relative;
     /*min-height: 500px;*/
     /*background-image: url("/img/FullContactBg.png");*/
     background-color: #0be2b8;
@@ -452,7 +453,6 @@ text-align: center;
 }
 
 /*Stroke*/
-
 nav ul li a,
 nav ul li a:after,
 nav ul li a:before {
@@ -467,7 +467,8 @@ nav.fill ul li a {
     position: relative;
 }
 nav.stroke ul li a:after,
-nav.fill ul li a:after {
+nav.fill ul li a:after,
+{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -479,6 +480,7 @@ nav.fill ul li a:after {
     background: #16ffbb;
     height: 1px;
 }
+
 nav.stroke ul li a:hover:after {
     width: 100%;
 }
@@ -500,7 +502,7 @@ nav.stroke ul li a:hover:after {
 .shine::before {
     position: absolute;
     top: 0;
-    left: -75%;
+    left: -300%;
     z-index: 2;
     display: block;
     content: '';
@@ -512,8 +514,8 @@ nav.stroke ul li a:hover:after {
     transform: skewX(-25deg);
 }
 .shine:hover::before {
-    -webkit-animation: shine .75s;
-    animation: shine .75s;
+    -webkit-animation: shine 1s;
+    animation: shine 1s;
 }
 @-webkit-keyframes shine {
     100% {
@@ -544,4 +546,20 @@ nav.stroke ul li a:hover:after {
 }
 .home-new-section{
     margin-top:40px;
+}
+.notransition {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+}
+/*.contactSketch{*/
+    /*position: absolute;*/
+    /*height:100%;*/
+    /*width: 100%;*/
+    /*display: block;*/
+/*}*/
+canvas {
+    background: #023;
+    display: block;
 }

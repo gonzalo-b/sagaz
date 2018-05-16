@@ -1,7 +1,7 @@
 <div class="container sectionBox" id="portfolio">
     <div class="row">
         <div class="col-md-12 sectionHeader ">
-            <h1> <span class="shine"> Portfolio</span></h1>
+                <h1> <span class="shine"> Portfolio</span></h1>
         </div>
     </div>
     <!-- MyBigYellowBus -->
@@ -12,7 +12,7 @@
             </figure>
         </div>
         <div class="col-md-6 rowSwapHead1">
-            <a target="_blank"  href="http://www.mybigyellowbus.ca">
+            <a target="_blank" class="stroke"  href="http://www.mybigyellowbus.ca">
                 <h2>My Big Yellow Bus</h2>
             </a>
             <p class="subHeader"> Empresa Canadiense de Transporte Escolar</p>
@@ -26,8 +26,8 @@
     </div>
     <!-- CPG -->
     <div class="row jobRow">
-        <div class="col-md-6 ">
-            <a target="_blank"  href="http://www.clickpassgoal.com">
+        <div class="col-md-6 stroke">
+            <a target="_blank" href="http://www.clickpassgoal.com">
                 <h2>Click Pass Goal</h2>
             </a>
             <p class="subHeader">Agencia de Scouting </p>
@@ -48,7 +48,7 @@
             </figure>
         </div>
         <div class="col-md-6 rowSwapHead2">
-            <a target="_blank" href="http://www.euroconfortcalzado.com.ar">
+            <a target="_blank" class="stroke" href="http://www.euroconfortcalzado.com.ar">
                 <h2>Euro Confort Calzado</h2>
             </a>
             <p class="subHeader">Empresa Argentina de Calzado Femenino</p>

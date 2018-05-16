@@ -99,7 +99,6 @@ $(function () {
     $(document).scroll(function() {
         var y = $(this).scrollTop();
         var target = $('#servicios').offset().top;
-        console.log(target+' | '+y);
         if (y > target) {
             $('.hamburger').fadeIn();
         } else {
