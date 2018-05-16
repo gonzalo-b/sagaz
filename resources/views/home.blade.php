@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta name="csrf-token" content="{{ csrf_token() }}" />
-    @pwaManifest
+    {{--@pwaManifest--}}
     @include('metas')
 
     <title>Sagaz - Estudio Creativo Digital</title>
