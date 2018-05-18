@@ -467,7 +467,7 @@ nav.fill ul li a {
     position: relative;
 }
 nav.stroke ul li a:after,
-nav.fill ul li a:after,
+nav.fill ul li a:after
 {
     position: absolute;
     bottom: 0;
@@ -562,4 +562,10 @@ nav.stroke ul li a:hover:after {
 canvas {
     background: #023;
     display: block;
+}
+a:focus{
+    outline: none;
+}
+button:focus{
+    outline: none;
 }
