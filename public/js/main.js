@@ -14,10 +14,11 @@ $(function () {
     //     });
 
     // }else {
-    //     // Use HTML5 video
-    //     document.querySelectorAll('.canvas')[0].style.display = 'none';
+    //    
     // }
 
+    // Use HTML5 video
+    document.querySelectorAll('.canvas')[0].style.display = 'none';
     // Fix Jobs on mobile
     var windowsize = $(window).width();
 
