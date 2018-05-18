@@ -1,24 +1,23 @@
 $(function () {
     var isIOS = /iPad|iPhone|iPod/.test(navigator.platform);
 
-    // if (isIOS) {
+    if (isIOS) {
 
-    //     var canvasVideo = new CanvasVideoPlayer({
-    //         videoSelector: '.video',
-    //         canvasSelector: '.canvas',
-    //         timelineSelector: false,
-    //         autoplay: true,
-    //         makeLoop: true,
-    //         pauseOnClick: false,
-    //         audio: false
-    //     });
+        var canvasVideo = new CanvasVideoPlayer({
+            videoSelector: '.video',
+            canvasSelector: '.canvas',
+            timelineSelector: false,
+            autoplay: true,
+            makeLoop: true,
+            pauseOnClick: false,
+            audio: false
+        });
 
-    // }else {
-    //    
-    // }
+    }else {
+        // Use HTML5 video
+        document.querySelectorAll('.canvas')[0].style.display = 'none';
+    }
 
-    // Use HTML5 video
-    document.querySelectorAll('.canvas')[0].style.display = 'none';
     // Fix Jobs on mobile
     var windowsize = $(window).width();
 
@@ -48,7 +47,6 @@ $(function () {
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
             }, 1000, function(){
-
                 // Add hash (#) to URL when done scrolling (default click behavior)
                 window.location.hash = hash;
             });
