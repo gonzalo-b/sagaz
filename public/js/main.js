@@ -1,22 +1,31 @@
 $(function () {
     var isIOS = /iPad|iPhone|iPod/.test(navigator.platform);
 
-    if (isIOS) {
-
-        var canvasVideo = new CanvasVideoPlayer({
-            videoSelector: '.video',
-            canvasSelector: '.canvas',
-            timelineSelector: false,
-            autoplay: true,
-            makeLoop: true,
-            pauseOnClick: false,
-            audio: false
-        });
-
-    }else {
+    // Mobile add gif
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
         // Use HTML5 video
         document.querySelectorAll('.canvas')[0].style.display = 'none';
+
+        // Change Video To Gif
+        $('#video').addClass('escondido');
+        $('#inicio').addClass('gifBg')
+    }else{
+        if (isIOS) {
+            var canvasVideo = new CanvasVideoPlayer({
+                videoSelector: '.video',
+                canvasSelector: '.canvas',
+                timelineSelector: false,
+                autoplay: true,
+                makeLoop: true,
+                pauseOnClick: false,
+                audio: false
+            });
+        }else {
+            // Use HTML5 video
+            document.querySelectorAll('.canvas')[0].style.display = 'none';
+        }
     }
+
 
     // Fix Jobs on mobile
     var windowsize = $(window).width();

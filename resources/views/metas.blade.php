@@ -4,8 +4,8 @@
 <meta property="og:site_name" content="Sagaz">
 <meta property="og:title" content="Sagaz">
 <meta property="og:type" content="website">
-<meta name="description" content="Sagaz - Estudio creativo digital">
-<meta property="og:description" content="Sagaz - Estudio creativo digital">
+<meta name="description" content="Sagaz Estudio Creativo| Agencia de Marketing Digital, Diseño Gráfico y Desarrollo Web">
+<meta property="og:description" content="Sagaz Estudio - Nuestro trabajo está enfocado en desarrollar marcas online. Con base en la Ciudad Autónoma de Buenos Aires, brindamos asesoría en comunicación para potenciar empresas de todo el país.">
 <meta property="og:image" content="{{ url('/img/favicon.png') }}">
 <meta property="og:image:width" content="119">
 <meta property="og:image:height" content="58" >

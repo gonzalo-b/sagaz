@@ -233,13 +233,13 @@ text-align: center;
 }
 .callToBg{
     /* The image used */
-    background-image: url("/img/vectoresBg.png");
 
     /* Set a specific height */
     height: 450px;
 
     /* Create the parallax scrolling effect */
     /*background-attachment: fixed;*/
+    background-image: url("/img/vectoresBg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -516,6 +516,15 @@ nav.stroke ul li a:hover:after {
 .shine:hover::before {
     -webkit-animation: shine 1s;
     animation: shine 1s;
+}
+.escondido{
+    display: none;
+}
+.gifBg{
+    background-image: url("/video/video-gif.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 @-webkit-keyframes shine {
     100% {

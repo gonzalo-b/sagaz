@@ -18,5 +18,7 @@ $(function () {
     } else {
         // $('html').addClass('perfect-scrollbar-off');
     }
+
+
 });
 

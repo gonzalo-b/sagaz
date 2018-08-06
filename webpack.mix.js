@@ -35,6 +35,7 @@ mix.scripts([
     // 'bower_components/bubbles/bubbles.js',
 ], 'public/js/all.js');
 
+
 var SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
 mix.webpackConfig({
     plugins: [
@@ -47,8 +48,15 @@ mix.webpackConfig({
             handleFetch: true,
             dynamicUrlToDependencies: { //you should add the path to your blade files here so they can be cached
                 //and have full support for offline first (example below)
+                '/': ['resources/views/navigation.blade.php'],
+                '/': ['resources/views/header.blade.php'],
+                '/': ['resources/views/servicios.blade.php'],
+                '/': ['resources/views/jobs.blade.php'],
+                '/': ['resources/views/brands.blade.php'],
+                '/': ['resources/views/callToAction.blade.php'],
+                '/': ['resources/views/contacto.blade.php'],
+                '/': ['resources/views/footer.blade.php'],
                 '/': ['resources/views/home.blade.php'],
-                // '/posts': ['resources/views/posts.blade.php']
             },
             staticFileGlobsIgnorePatterns: [/\.map$/, /mix-manifest\.json$/, /manifest\.json$/, /service-worker\.js$/],
             navigateFallback: '/',
@@ -58,7 +66,7 @@ mix.webpackConfig({
                     handler: 'cacheFirst'
                 },
                 {
-                    urlPattern: /^https:\/\/www\.thecocktaildb\.com\/images\/media\/drink\/(\w+)\.jpg/,
+                    urlPattern: /^https:\/\/www\.escortscomodoro\.com\/img\/logo\/(\w+)\.png]/,
                     handler: 'cacheFirst'
                 }
             ],
