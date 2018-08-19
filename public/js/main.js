@@ -5,7 +5,7 @@ $(function () {
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
         // Use HTML5 video
         document.querySelectorAll('.canvas')[0].style.display = 'none';
-
+        console.log('dale');
         // Change Video To Gif
         $('#video').addClass('escondido');
         $('#inicio').addClass('gifBg')
