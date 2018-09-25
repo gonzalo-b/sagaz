@@ -1,5 +1,5 @@
 APP_NAME='Sagaz Studio'
-APP_ENV=local
+APP_ENV=production
 APP_KEY=base64:8bwDQTkO0u9KAskIWKU0V1Zs4hIEt8a4agOtevQtCaU=
 APP_DEBUG=true
 APP_URL=https://www.sagaz.com.ar
