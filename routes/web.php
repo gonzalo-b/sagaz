@@ -10,9 +10,12 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::group(['middleware' => ['ForceSSL']], function () {
+    Route::get('/', function () {
 
-Route::get('/', function () {
-    return view('home');
+        return view('home');
+    });
+
+    Route::post('contacto', 'MainController@sendMail');
+
 });
-
-Route::post('contacto', 'MainController@sendMail');
