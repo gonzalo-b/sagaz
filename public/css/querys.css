@@ -89,7 +89,9 @@
     #contact-form{
         padding: 0px 50px;
     }
-
+    .contactBotBg {
+        margin-top: -1px !important;
+    }
 }
 
 

@@ -3,6 +3,8 @@
 <head>
     <meta name="csrf-token" content="{{ csrf_token() }}" />
     @pwaManifest
+    {{--<link rel="manifest" href="https://www.sagaz.com/pwa-manifest.json">--}}
+
     @include('metas')
 
     <title>Sagaz - Estudio Creativo Digital</title>
