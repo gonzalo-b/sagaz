@@ -20,6 +20,9 @@
     @stack('styles')
 </head>
 <body>
+<div id="splashscreen">
+    <img class="splashGif fixedCenter" src="/img/splash.gif" alt="Sagaz Studio - Logo Splash">
+</div>
 <div class="wrapper">
     @include('navigation')
     @include('header')
@@ -29,6 +32,7 @@
     @include('callToAction')
     @include('contacto')
     @include('footer')
+
 </div>
 
 <!-- JavaScripts -->

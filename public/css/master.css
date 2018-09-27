@@ -578,3 +578,27 @@ a:focus{
 button:focus{
     outline: none;
 }
+#splashscreen{
+    position: fixed;
+    z-index: 99999;
+    height: 100vh;
+    top: 0;
+    padding-top: 25%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    background: #fff;
+    transition: none
+    /*transition: 1s 0.4s;*/
+}
+.splashGif{
+    width: 150px;
+}
+.fixedCenter{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}

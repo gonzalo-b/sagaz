@@ -16,6 +16,7 @@ mix.styles([
     'bower_components/sweetalert2/dist/materialTheme.css',
     'bower_components/FullscreenOverlayStyles/css/style1.css',
     'bower_components/coolHamburger/hamb.css',
+    'bower_components/SplashScreen/Css/jquery.SplashScreen.css',
     // 'bower_components/inspiration/litebreeze.css',
 ], 'public/css/packages.css');
 
@@ -31,6 +32,7 @@ mix.scripts([
     'bower_components/ParticleEffectsButtons/js/anime.min.js',
     'bower_components/ParticleEffectsButtons/js/particles.js',
     'bower_components/sweetalert2/dist/sweetalert2.min.js',
+    'bower_components/SplashScreen/Scripts/jquery.SplashScreen.js',
     // 'bower_components/bubbles/sketch.min.js',
     // 'bower_components/bubbles/bubbles.js',
 ], 'public/js/all.js');
