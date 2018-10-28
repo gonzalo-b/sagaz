@@ -9,13 +9,14 @@
     background-position: center top;
 }
 .header-sec:after {
-    position: absolute;
+     position: absolute;
     content: '';
-    top: 40%;
-    left: 40%;
+    top: 25%;
+    left: 22%;
     background: url(assets/imagesHQ/13.png) no-repeat;
-    width: 100%;
-    height: 200px;
+    background-size: 100%;
+    width: 400px;
+    height: 250px;
 }
 .more-img-sec {
     position: relative;

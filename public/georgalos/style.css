@@ -326,11 +326,18 @@ p {
 .navbar-brand {
     padding: 11px 15px;
 }
-
+.navbar-toggle{
+    position: absolute;
+    top: 23px;
+    right: 0px;
+}
 .navbar-brand > img {
     margin-top: -35px;
+    width: 350px;
 }
-
+.desktopHiden{
+    display: none !important;
+}
 .navbar-brand h1 {
     font-size: 31px;
     margin: 0;
@@ -361,8 +368,7 @@ p {
 .main-navigation{
     text-align: center;
 }
-.main-navigation li{
-}
+
 .sticky-header {
     background: #fff;
     padding: 10px 0;
@@ -1037,7 +1043,13 @@ ul.tra-second-list {
     line-height: 20px;
     margin-top: 10px;
 }
-
+.navbar-default .navbar-toggle .icon-bar{
+    background: #fff !important;   
+}
+.navbar-default .navbar-toggle{
+        border-color: #fff !important;
+    background: rgba(0, 0, 0, 0.10) !important;
+}
 /*============================
 		Calidid CSS
 ==============================*/
