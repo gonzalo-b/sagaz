@@ -274,34 +274,39 @@ p {
 }
 
 .header-top ul {
-    margin: 0;
+   margin: 0;
+    margin-top: -3px;
     padding: 0;
+    padding-bottom: 1px;
     list-style: none;
     float: right;
 }
 
 .header-top li {
     display: inline-block;
-    padding: 15px 5px;
+    padding: 0px 2px;
     color: #fff;
 }
 
 .ex {
-    background: #fff;
+     background: #fff;
     color: red;
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 13px;
+    height: 13px;
     text-align: center;
-    line-height: 30px;
+    line-height: 14px;
 }
 
 .header-top a {
     color: #fff;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 400;
 }
 
 .header-top i {
-    font-size: 15px;
+    font-size: 10px;
 }
 
 .header-top .fa-home {
@@ -338,9 +343,8 @@ p {
 }
 
 .navbar-default {
-    background: rgba(0, 0, 0, 0.20);
+    background: transparent;
     border: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
     padding: 15px 0;
     border-radius: 0;
     z-index: 12;
@@ -348,7 +352,17 @@ p {
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
 }
-
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    border-color: #c6c6c6 !important;
+}
+.collapse.in, .collapsing {
+    background: rgba(0, 0, 0, 0.75)
+}
+.main-navigation{
+    text-align: center;
+}
+.main-navigation li{
+}
 .sticky-header {
     background: #fff;
     padding: 10px 0;

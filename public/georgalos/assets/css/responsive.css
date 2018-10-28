@@ -7,7 +7,7 @@
         margin-top: -25px;
         margin-left: -50px;
     }
-
+   
     .navbar-right {
         margin-top: -50px;
     }
@@ -135,8 +135,18 @@
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
-   
-
+    .clearMobile{
+        clear: both;
+    }
+    .header-top{
+         display: none;
+    }
+   .navbar-default .navbar-brand{
+        margin-top: 10px;
+   }
+    .main-navigation li{
+        padding: 0px 22%;
+    }
     .nove-bottom img {
         width: 80%;
     }
@@ -178,12 +188,15 @@
     .more-img-sec:after {
         display: none;
     }
-
+    .chocolateWidth{
+        width: 63% !important;
+    }
     .more-img img {
         width: 70%;
-        margin-bottom: 20px;
     }
-
+    .more-img  .col-xs-6 img{
+        width: 100% !important;
+    }
 
     .header-top li {
         padding: 5px;
@@ -331,8 +344,11 @@
     .nove-bottom {
         padding-top: 425px;
         margin-top: -350px;
+         background-position: top;       
     }
-
+    .especialFullWidth{
+        width: 100% !important;
+    }
     .tra-box {
         margin-left: 0;
         margin-bottom: 200px;
