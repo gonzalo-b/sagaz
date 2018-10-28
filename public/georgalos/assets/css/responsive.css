@@ -19,8 +19,8 @@
         height: 43%;
     }
 
-    .more-img {
-        margin-top: -420px;
+    .bolg-border {
+        background: none;
     }
 
     .more-img-sec:before {
@@ -118,13 +118,37 @@
         top: 40px;
         width: 38%;
     }
+
+    p.saludable {
+        font-size: 55px;
+    }
+
+    .img-one a {
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    .more-img {
+        margin-top: -460px;
+    }
 }
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
-    .info-main{
+   
+
+    .nove-bottom img {
+        width: 80%;
+    }
+
+    .ex-img {
+        height: 300px;
+    }
+
+    .info-main {
         margin-top: 0;
     }
+
     p.saludable {
         display: none;
     }
@@ -475,6 +499,7 @@
         display: block;
         font-size: 50px;
     }
+
     .bolg-border {
         background: none;
     }

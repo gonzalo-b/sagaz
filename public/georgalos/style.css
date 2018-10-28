@@ -521,17 +521,16 @@ p {
 .nove-sec h2 {
     color: #817E44;
     margin-bottom: 50px;
-    text-transform: uppercase;
     font-size: 30px;
     margin-top: 0;
     text-align: center;
 }
 
 .sinlge-nove {
-    border: 2px solid #817E44;
     padding: 10px;
     margin-bottom: 25px;
     height: 170px;
+    background: #F6F1D4;
 }
 
 .sinlge-nove img {
@@ -561,7 +560,17 @@ p {
     font-size: 12px;
     margin-top: 25px;
 }
-
+.leer {
+    background: #807E45;
+    color: #fff;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+    margin-top: 35px;
+}
 .nove-bottom {
     background: url(assets/imagesHQ/bg/05.png) no-repeat;
     padding-top: 200px;
@@ -582,10 +591,10 @@ p {
 }
 
 .ex-img {
-    width: 100%;
-    margin-top: -100px
+    width: 297px;
+    margin-top: -50px;
+    height: 350px;
 }
-
 
 p.saludable {
 
