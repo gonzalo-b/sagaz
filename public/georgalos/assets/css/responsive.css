@@ -142,6 +142,13 @@
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
+    .filo-box h3{
+        font-size: 20px !important;
+    }
+    .filo-box p{
+        line-height: 18px !important;
+        font-size: 14px !important;
+    }
     .clearMobile{
         clear: both;
     }
@@ -262,7 +269,7 @@
     }
 
     .info-logo {
-        margin-top: 25px;
+        margin-top: 50px;
         text-align: center;
     }
 
@@ -310,6 +317,7 @@
     .filosofia-sec p {
         line-height: 10px;
         font-size: 10px;
+        padding-top: 20px;
     }
 
     .text-one {
@@ -353,8 +361,20 @@
 
     .ex-img {
         width: auto;
-        margin-top: 0;
+        margin-top: 30px;
         margin-bottom: 30px;
+    }
+    .ourProducts:before{
+        top: -40px;
+        left: 50px;
+        width: 50px;
+        height: 95px;
+    }
+    .ourProducts:after{
+        bottom: -35%;
+        right: 100px;
+        width: 150px;
+        height: 92px;
     }
     .footer-sec-two{
         background-position: top;
@@ -504,8 +524,20 @@
 
     .calidad-sec {
         padding: 50px 0;
+        background: #E2D4BD !important;
     }
-
+    .blog-sec{
+          background: #ffffff !important;
+    }
+    .tra-sec:before{
+          background: #E2DCD7  !important;
+    }
+    .info-sec:before{
+        background: #ffffff;
+    }
+     .filosofia-sec{
+         background: #F6F6F6;
+    }
     .long-border {
         display: none;
     }

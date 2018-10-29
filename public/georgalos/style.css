@@ -254,6 +254,78 @@ p {
     /*    transform: skewY(5deg);*/
 }
 
+.saludable:before  {
+   position: absolute;
+    content: "";
+    top: -10%;
+    left: 0px;
+    width: 50px;
+    height: 92px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left top;
+    background-image: url(./assets/imagesHQ/saluDetails1.png);
+    /* transform: skewY(5deg); */
+}
+.iconCasa{
+ width: 12px;
+    height: 12px;
+    top: 1px;
+    position: absolute;
+}
+.ourProducts:before{
+   position: absolute;
+    content: "";
+    top: 160px;
+    left: 15px;
+    width: 60px;
+    height: 95px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left top;
+    background-image: url(./assets/imagesHQ/productosDetails1.png);
+    /* transform: skewY(5deg); */
+}
+.ourProducts:after  {
+  position: absolute;
+    content: "";
+    /* bottom: -10%; */
+    right: 35px;
+    width: 200px;
+    height: 92px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right bottom;
+    background-image: url(./assets/imagesHQ/productosDetails2.png);
+    /* transform: skewY(5deg); */
+}
+.saludable:after, .saludable-mb:after  {
+  position: absolute;
+    content: "";
+    /* bottom: -10%; */
+    right: 35px;
+    width: 200px;
+    height: 92px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right bottom;
+    background-image: url(./assets/imagesHQ/saluDetails2.png);
+    /* transform: skewY(5deg); */
+}
+
+.saludable-mb:before{
+ position: absolute;
+    content: "";
+    top: -10%;
+    left: 0px;
+    width: 50px;
+    height: 92px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left top;
+    background-image: url(./assets/imagesHQ/saluDetails1.png);
+    /* transform: skewY(5deg); */
+}
 
 .info-sec:after {
     position: absolute;
@@ -271,6 +343,7 @@ p {
 .header-top {
     background: red;
     position: relative;
+        padding-top: 2px;
 }
 
 .header-top ul {
@@ -502,7 +575,7 @@ p {
 }
 
 .img-one {
-    margin-top: 140px;
+    margin-top: 200px;
 }
 
 .img-one a,
@@ -591,10 +664,17 @@ p {
     margin: 0 auto;
     margin-top: 35px;
 }
+.geoRed{
+    color: red !important;
+}
+.navbar-nav>li{
+    text-shadow: 1px 1px #333;      
+}
 .nove-bottom {
     background: url(assets/imagesHQ/bg/05.png) no-repeat;
-    padding-top: 200px;
+    padding-top: 260px;
     width: 100%;
+
     background-size: cover;
     padding-bottom: 75px;
     text-align: center;
@@ -759,7 +839,7 @@ p.saludable-mb {
 
 .tra-text {
     margin-bottom: 75px;
-    padding-top: 70px;
+    padding-top: 50px;
 }
 
 .tra-box {
@@ -956,6 +1036,7 @@ ul.tra-second-list {
 .filosofia-sec h2 {
     color: #C99E50;
     font-size: 30px;
+    margin-top: 0px;
     margin-bottom: 100px;
 }
 
