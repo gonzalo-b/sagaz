@@ -23,11 +23,11 @@
     z-index: 999;
 }
 .more-img-sec:after {
-    position: absolute;
+      position: absolute;
     content: "";
     top: -16%;
     left: 55%;
-    width: 50%;
+    width: 45%;
     height: 40%;
     background-image: url(assets/imagesHQ/bg/red@2x.png);
     background-position: right;
