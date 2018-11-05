@@ -1,4 +1,4 @@
-/* Large Layouts: 1280px +. */
+/* Large Layouts: 1200px +. */
 @media only screen and (min-width: 1200px)  {
     .navbar-nav>li{
         margin: 0px 20px;
@@ -6,7 +6,65 @@
 }
 
 /* Medium Layout: 1280px. */
-@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+@media only screen and (max-width: 1200px) {
+    #nuestrosValores h3, #nuestrosValores p, #nuestrosValores .filo-image img, #escenciaGraph p, #escenciaGraph h3, #escenciaGraph  img{
+        display: none;
+    }
+    #nuestrosValores{
+        background: url(../imagesHQ/info2-02_full.png) no-repeat center;
+        min-height: 800px;
+        margin-bottom: -50px;
+        width: 100%;
+        text-align: center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #escenciaGraph{
+        background: url(../imagesHQ/info1-02_full.png) no-repeat center;
+        min-height: 800px;
+        margin-bottom: 0px;
+        width: 100%;
+        text-align: center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    .info-sec:after {
+        top: -53%;
+        left: 55%;
+        width: 45%;
+        height: 55%;
+    }
+    .tra-first-list{
+        width: 100%;
+    }
+    .tra-box-one {
+        margin-left: -10%;
+        top: -30px;
+    }
+
+    .tra-box-two {
+        margin-left: 10%;
+        top: -30px;
+    }
+
+    .tra-box-three {
+        margin-left: 30%;
+        top: -30px;
+    }
+
+    .tra-box-four {
+        margin-left: 50%;
+    }
+
+    .tra-box-five {
+        margin-left: 74%;
+    }
+
+}
 
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -55,6 +113,7 @@
 
     .info-sec:after {
         top: -120%;
+        display: none;
     }
 
     .info-sec:before {
@@ -88,28 +147,6 @@
         left: 4%;
     }
 
-    .tra-box-one {
-        margin-left: -10%;
-        top: -30px;
-    }
-
-    .tra-box-two {
-        margin-left: 10%;
-        top: -30px;
-    }
-
-    .tra-box-three {
-        margin-left: 30%;
-        top: -30px;
-    }
-
-    .tra-box-four {
-        margin-left: 50%;
-    }
-
-    .tra-box-five {
-        margin-left: 74%;
-    }
 
     .footer-social-icon:before,
     .footer-social-icon:after {
@@ -142,6 +179,12 @@
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
+    .start-higher{
+        margin-top: 0px;
+    }
+    #escenciaGraph, #nuestrosValores{
+        min-height: 500px;
+    }
     .filo-box h3{
         font-size: 20px !important;
     }
@@ -293,8 +336,8 @@
     }
 
     .info-main {
-        width: 200%;
-        margin-left: -53%;
+        /*width: 200%;*/
+        /*margin-left: -53%;*/
     }
 
     .img-seven img,

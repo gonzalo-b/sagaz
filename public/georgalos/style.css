@@ -331,10 +331,10 @@ p {
     position: absolute;
     content: "";
     top: -80%;
-    left: 37%;
-    width: 100%;
+    left: 42%;
+    width: 60%;
     height: 128%;
-    background-image: url(./assets/imagesHQ/bg/yellow@2x.png);
+    background-image: url(./assets/imagesHQ/bg/yellow@3x.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1084,7 +1084,10 @@ ul.tra-second-list {
 }
 
 .filo-image img {
-    width: 100%;
+    width: 86%;
+    text-align: center;
+    margin: 0px auto;
+    margin-left: 30px;
     position: relative;
 }
 
@@ -1470,4 +1473,7 @@ ul.tra-second-list {
 .footer-social-icon-two i {
     font-size: 25px;
     padding: 10px;
+}
+.start-higher{
+    margin-top: -150px;
 }
