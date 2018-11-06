@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Mehedi - Freelancer One Page Portfolio & Resume HTML5 Template">
-    <meta name="keywords" content="resume, cv, portfolio, personal, developer, designer,personal resume, onepage, clean, modern">
-    <meta name="author" content="Mehedi002">
+    <meta name="description" content="Sagaz - Proyecto Georgalos.com">
+    <meta name="keywords" content="georgalos">
+    <meta name="author" content="Sagaz Estudio">
 
     <title>GEORGALOS</title>
 

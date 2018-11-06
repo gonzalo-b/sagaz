@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Sagaz - Proyecto Georgalos.com">
     <meta name="keywords" content="georgalos">
-    <meta name="author" content="plicaman">
+    <meta name="author" content="Sagaz Estudio">
 
     <title>GEORGALOS</title>
 
@@ -74,7 +74,7 @@
                 <!-- Navigation starts -->
                 <div class="navbar-collapse collapse" id="navigation">
                     <ul class="nav navbar-nav navbar-right main-navigation">
-                        <li><a href="empresa.html">EMPRESA</a></li>
+                        <li><a href="empresa.php">EMPRESA</a></li>
                         <li class="dropdown">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown">PRODUCTOS  <b class="caret"></b>
                           </a>
