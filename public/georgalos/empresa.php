@@ -2,86 +2,18 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sagaz - Proyecto Georgalos.com">
-    <meta name="keywords" content="georgalos">
-    <meta name="author" content="Sagaz Estudio">
-
-    <title>GEORGALOS</title>
-
-    <!--Bootstrap CSS-->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <!--Owl Carousel CSS-->
-    <link href="assets/css/owl.carousel.css" rel="stylesheet">
-    <!--Font-awesome CSS-->
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <!--Normalize CSS-->
-    <link href="assets/css/normalize.css" rel="stylesheet">
-    <!--Custome CSS-->
-    <link href="style.css" rel="stylesheet">
-    <!--Responsive CSS-->
-    <link href="assets/css/responsive.css" rel="stylesheet">
-
+    <title>GEORGALOS - Empresa</title>
+    <?php require('partials/head.php') ?>
 </head>
 
 <body data-spy="scroll" data-target="#navigation" data-offset="75">
     <header class="header-sec">
-        <div class="header-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="header-top-list">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-facebook ex"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram ex"></i></a></li>
-                                <li><a href="#"><i class="fa fa-youtube ex"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin ex"></i></a></li>
-                                <li>|</li>
-                                <li><a href="#"><i class="fa fa-thumbs-up"></i> TRABAJA CON NOSOTROS </a></li>
-                                <li>|</li>
-                                <li><a href="#"><i class="fa fa-home"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <nav id="main-nav" class="navbar navbar-default">
-            <div class="container">
-                <div class="navbar-header">
-                    <!-- Logo starts -->
-                    <a class="navbar-brand logoMobil" href="/">
-                        <img src="assets/imagesHQ/footer-logo-02.png" alt="Logo">
-                    </a>
-                    <!-- Logo Ends -->
-
-                    <!-- Responsive Menu button starts -->
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <!-- Responsive Menu button Ends -->
-                </div>
-
-                <!-- Navigation starts -->
-                <div class="navbar-collapse collapse" id="navigation">
-                    <ul class="nav navbar-nav navbar-right main-navigation">
-                        <li class="active"><a href="#home">EMPRESA</a></li>
-                        <li><a href="#about">PRODUCTOS</a></li>
-                        <li><a href="#portfolio">RECETAS</a></li>
-                        <li><a href="#resume">NOVEDADES</a></li>
-                        <!-- <li><a href="#blog">Blog</a></li> -->
-                        <li><a href="#contact">CONTACTO</a></li>
-                    </ul>
-                </div>
-                <!-- Navigation Ends -->
-            </div>
-        </nav>
+        <?php require('partials/headerTopBar.php') ?>
+        <?php
+            $site = 'empresa';
+            require('partials/headerTopNav.php')
+        ?>
     </header>
-
 
     <div class="info-sec start-higher">
         <div class="info-bg">
@@ -358,124 +290,7 @@
             </div>
         </div>
     </div>
-
-    <footer class="footer-sec-two text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="footer-logo">
-                        <img src="assets/imagesHQ/footer-logo-02.png" alt="Logo">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <ul class="foot-two-list">
-                        <li><a href="#">descarga nuestro media kit</a></li>
-                        <li>/</li>
-                        <li><a href="#">contacto</a></li>
-                        <li>/</li>
-                        <li><a href="#">terminos y condiciones</a></li>
-                    </ul>
-                    <h3>Servicio de informacion al consumidor: 0800-222-3030</h3>
-                    <p>&copy; Copyright 2018. Todos los derechos reservados Georgalos S.A.</p>
-                </div>
-                <div class="col-md-3">
-                    <div class="footer-social-icon-two">
-                        <ul>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!--
-    <footer class="footer-sec">
-        <div class="footer-top-logo">
-            <img src="assets/images/footer-logo-02.png" alt="Logo">
-        </div>
-        <div class="container">
-            <div class="footer-list">
-                <div class="row">
-                    <div class="col-md-3 col-sm-4">
-                        <h3>Empresa</h3>
-                        <ul>
-                            <li><a href="#">Trayectoria</a></li>
-                            <li><a href="#">Filosofia</a></li>
-                            <li><a href="#">Calidad</a></li>
-                            <li><a href="#">Innovacion</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 col-sm-4">
-                        <h2>Productos</h2>
-                        <h3>Nucrem</h3>
-                        <h3>Caramelos</h3>
-                        <ul>
-                            <li><a href="#">Flynn Paff</a></li>
-                            <li><a href="#">Flynnies</a></li>
-                            <li><a href="#">Cebritas</a></li>
-                            <li><a href="#">Pequenos Placeres</a></li>
-                        </ul>
-                        <h3>Chocolates</h3>
-                        <ul>
-                            <li><a href="#">Sin Azucar</a></li>
-                            <li><a href="#">Full Mani</a></li>
-                            <li><a href="#">Full</a></li>
-                            <li><a href="#">Crico</a></li>
-                            <li><a href="#">Tokke</a></li>
-                            <li><a href="#">Chocolates Georgalos</a></li>
-                        </ul>
-                        <h3>Reposteria</h3>
-                        <h3>Cereales</h3>
-                        <h3>Brras de cereal</h3>
-                    </div>
-                    <div class="col-md-3 col-sm-4">
-                        <h3>Recetas</h3>
-                        <ul>
-                            <li><a href="#">Helados</a></li>
-                            <li><a href="#">Nucrem Glace</a></li>
-                            <li><a href="#">Mousse Surf</a></li>
-                            <li><a href="#">Espuma Morena</a></li>
-                            <li><a href="#">Sol de Chocolate</a></li>
-                            <li><a href="#">Spaghetti Renacentista</a></li>
-                            <li><a href="#">Torta de Chocolate</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 col-sm-4">
-                        <h3>Novedades</h3>
-                        <h3>Contacto</h3>
-                        <p>Trabaja con nosotros</p>
-                        <h3>Descarga nuestro Media Kit</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-social-icon text-center">
-            <ul>
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-            </ul>
-        </div>
-        <div class="copy-right-text text-center">
-            <p>GEORGALOS S.A.. Venezuela 3854, B1603 Vicente Lopez, Pcia de Buenos Aires, Argentina.</p>
-            <p>Design by <a href="#">Sagaz.com.ar</a> - &copy; Copyright 2018. Todos los derechos resevados Geargalos S.A.</p>
-        </div>
-    </footer>-->
-
-
-    <!--jQuery (necessary for Bootstrap's JavaScript plugins)-->
-    <script src="assets/js/jquery.min.js"></script>
-    <!--Owl Carousel JS-->
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <!--Bootstrap JS-->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!--Custom JS-->
-    <script src="assets/js/main.js"></script>
+    <?php  require('partials/footer.php') ?>
+    <?php  require('partials/js.php') ?>
 </body>
-
 </html>

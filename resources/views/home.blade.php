@@ -23,6 +23,8 @@
 <div id="splashscreen">
     <img class="splashGif fixedCenter" src="/img/splash.gif" alt="Sagaz Studio - Logo Splash">
 </div>
+@include('mobileNav')
+
 <div class="wrapper">
     @include('navigation')
     @include('header')

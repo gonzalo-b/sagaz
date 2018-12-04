@@ -40,9 +40,13 @@ a:hover{
     width: 120px;
     z-index:99;
 }
+#movilBall{
+    z-index: 99;
+}
 #mainNav{
     height: 80px;
-    z-index: 99;
+    z-index: 9;
+    /*z-index: 99;*/
 
     position: relative;
     display: -webkit-box;
@@ -580,7 +584,7 @@ button:focus{
 }
 #splashscreen{
     position: fixed;
-    z-index: 99999;
+    z-index: 9;
     height: 100vh;
     top: 0;
     padding-top: 25%;
@@ -591,6 +595,9 @@ button:focus{
     background: #fff;
     transition: none
     /*transition: 1s 0.4s;*/
+}
+#navbarResponsive{
+    display: none;
 }
 .splashGif{
     width: 150px;

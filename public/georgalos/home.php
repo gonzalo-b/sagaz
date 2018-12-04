@@ -2,105 +2,19 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sagaz - Proyecto Georgalos.com">
-    <meta name="keywords" content="georgalos">
-    <meta name="author" content="Sagaz Estudio">
-
-    <title>GEORGALOS</title>
-
-    <!--Bootstrap CSS-->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <!--Owl Carousel CSS-->
-    <link href="assets/css/owl.carousel.css" rel="stylesheet">
-    <!--Font-awesome CSS-->
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <!--Normalize CSS-->
-    <link href="assets/css/normalize.css" rel="stylesheet">
-    <!--Custome CSS-->
-    <link href="style.css" rel="stylesheet">
+    <title>GEORGALOS </title>
+    <?php require('partials/head.php') ?>
     <link href="custom.css" rel="stylesheet">
-    <!--Responsive CSS-->
-    <link href="assets/css/responsive.css" rel="stylesheet">
-
 </head>
 
 <body data-spy="scroll" data-target="#navigation" data-offset="75">
     <header class="header-sec">
-        <div class="header-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="header-top-list">
-                            <ul>
-                                <li><a target="_blank" href="https://www.facebook.com/GeorgalosArgentina"><i class="fa fa-facebook ex"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram ex"></i></a></li>
-                                <li><a href="#"><i class="fa fa-youtube-play ex"></i></a></li>
-                                <li><a target="_blank" href="https://www.linkedin.com/company/georgalos" ><i class="fa fa-linkedin ex"></i></a></li>
-                                <li><img src="assets/images/iconPunto.png" class="iconPunto2"></li>
-                                <li><a href="#"><i class="fa fa-thumbs-o-up"></i> TRABAJA CON NOSOTROS </a></li>
-                                <li><img src="assets/images/iconPunto.png" class="iconPunto2"></li>
-                                <li><a href="#">
-                                  <a href="http://webmail.georgalos.com.ar/geordwa.nsf">
-                                     <img src="assets/images/iconCasa.png" class="iconCasa">
-                                  </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <nav id="main-nav" class="navbar navbar-default">
-            <div class="container">
-                <div class="navbar-header">
-                    <!-- Logo starts -->
-                    <a class="navbar-brand" href="#">
-                        <img class='logoMobil' src="assets/imagesHQ/footer-logo-02.png" alt="Logo">
-                    </a>
-                    <!-- Logo Ends -->
-
-                    <!-- Responsive Menu button starts -->
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <!-- Responsive Menu button Ends -->
-                </div>
-
-                <!-- Navigation starts -->
-                <div class="navbar-collapse collapse" id="navigation">
-                    <ul class="nav navbar-nav navbar-right main-navigation">
-                        <li><a href="empresa.php">EMPRESA</a></li>
-                        <li class="dropdown">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">PRODUCTOS  <b class="caret"></b>
-                          </a>
-                          <ul class="dropdown-menu nav-dropdown">
-                            <li><a href="catalogos/catalogo_fiestas_2018.pdf" download>Desacargar Catálogo Navideño</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="#portfolio">RECETAS</a></li>
-                        <li><a href="#resume">NOVEDADES</a></li>
-                        <!-- <li><a href="#blog">Blog</a></li> -->
-                        <li><a href="#contact">CONTACTO</a></li>
-                        <li class="desktopHiden redesLi">
-                            <ul>
-                                <li><a target="_blank" href="https://www.facebook.com/GeorgalosArgentina"><i class="fa fa-facebook ex"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram ex"></i></a></li>
-                                <li><a href="#"><i class="fa fa-youtube ex"></i></a></li>
-                                <li><a target="_blank" href="https://www.linkedin.com/company/georgalos"><i class="fa fa-linkedin ex"></i></a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <!-- Navigation Ends -->
-            </div>
-        </nav>
+        <?php require('partials/headerTopBar.php') ?>
+        <?php
+        $site = 'inicio';
+        require('partials/headerTopNav.php')
+        ?>
     </header>
-
 
     <div class="more-img-sec">
         <div class="container">
@@ -268,46 +182,8 @@
         </div>
     </div>
 
-     <footer class="footer-sec-two text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="footer-logo">
-                        <img src="assets/imagesHQ/footer-logo-02.png" alt="Logo">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <ul class="foot-two-list">
-                        <li><a href="#">descarga nuestro media kit</a></li>
-                        <li>/</li>
-                        <li><a href="#">contacto</a></li>
-                        <li>/</li>
-                        <li><a href="#">terminos y condiciones</a></li>
-                    </ul>
-                    <p>&copy; Copyright 2018. Todos los derechos reservados Georgalos S.A.</p>
-                </div>
-                <div class="col-md-3">
-                    <div class="footer-social-icon-two">
-                        <ul>
-                            <li><a  target="_blank" href="https://www.facebook.com/GeorgalosArgentina" ><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                            <li><a target="_blank" href="https://www.linkedin.com/company/georgalos"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!--jQuery (necessary for Bootstrap's JavaScript plugins)-->
-    <script src="assets/js/jquery.min.js"></script>
-    <!--Owl Carousel JS-->
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <!--Bootstrap JS-->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!--Custom JS-->
-    <script src="assets/js/main.js"></script>
+    <?php  require('partials/footer.php') ?>
+    <?php  require('partials/js.php') ?>
 </body>
 
 </html>

@@ -128,5 +128,10 @@ $(function () {
         timeToFade: 1000, // in milliseconds (eg: 1000 = 1sec)
         timeOut: 2000   // in milliseconds (eg: 2000 = 2sec)
     });
+
+    setTimeout(showNav, 2000);
 });
 
+function showNav(){
+    $('#navbarResponsive').show();
+}
