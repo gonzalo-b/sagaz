@@ -27,7 +27,7 @@ MAIL_DRIVER=smtp
 MAIL_HOST=mail.sagaz.com.ar
 MAIL_PORT=25
 MAIL_USERNAME=contacto@sagaz.com.ar
-MAIL_PASSWORD=SagazEstudio20173
+MAIL_PASSWORD=SagazEstudio2019
 MAIL_ENCRYPTION=
 
 PUSHER_APP_ID=
