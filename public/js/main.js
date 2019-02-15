@@ -125,7 +125,7 @@ $(function () {
         progressBar: false,
         progressBarId: 'progress',
         fadeEffect: true,
-        timeToFade: 1000, // in milliseconds (eg: 1000 = 1sec)
+        timeToFade: 1200, // in milliseconds (eg: 1000 = 1sec)
         timeOut: 2000   // in milliseconds (eg: 2000 = 2sec)
     });
 
@@ -134,4 +134,6 @@ $(function () {
 
 function showNav(){
     $('#navbarResponsive').show();
+    $('#movilBall').removeClass('hide').addClass('show');
+    $('#splashscreen').addClass('zindex-1');
 }

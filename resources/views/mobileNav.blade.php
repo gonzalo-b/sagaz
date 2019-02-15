@@ -1,4 +1,4 @@
-<div class="overlay overlay-hugeinc" id="movilBall">
+<div class="overlay overlay-hugeinc hide" id="movilBall">
     <button type="button" class="overlay-close">Close</button>
     <nav>
         <ul>
