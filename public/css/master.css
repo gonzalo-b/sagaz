@@ -495,14 +495,15 @@ nav.stroke ul li a:hover:after {
     right: 0px;
     top: 0px;
 }
+
+.hamburger{
+    display: none;
+}
 /* Shine */
 .shine {
     position: relative;
     -webkit-transition: 5s ease-in-out;
     transition: 5s ease-in-out;
-}
-.hamburger{
-    display: none;
 }
 .shine::before {
     position: absolute;
