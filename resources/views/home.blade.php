@@ -32,6 +32,7 @@
     @include('jobs')
     @include('brands')
     @include('callToAction')
+    @include('wazup')
     @include('contacto')
     @include('footer')
 

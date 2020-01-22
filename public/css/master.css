@@ -620,3 +620,29 @@ button:focus{
 .zindex-1{
     z-index: -1 !important;
 }
+.whatsup{
+    position: fixed;
+    width: 64px;
+    height: 64px;
+    bottom: 2.25em;
+    right: 2.25em;
+}
+.whatsup::after {
+    width: 64px;
+    height: 64px;
+    box-sizing: border-box;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    border: 4px solid #6b6b6b;
+    border-radius: 50%;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: intervalHamburgerBorder;
+    animation-name: intervalHamburgerBorder;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
