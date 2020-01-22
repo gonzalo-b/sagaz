@@ -17,6 +17,8 @@
     <link href="{{ asset('css/packages.css') }}" rel="stylesheet">
     <link href="{{ asset('css/master.css') }}" rel="stylesheet">
     <link href="{{ asset('css/querys.css') }}" rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
     @stack('styles')
 </head>
 <body>

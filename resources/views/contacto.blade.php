@@ -30,6 +30,11 @@
                 </div>
             </div>
             <div class="row">
+                <div class="form-group center capchaBox1">
+                    <div class="g-recaptcha" data-sitekey="{{env('GOOGLE_CAP_SITE_KEY')}}"></div>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-12 col-sm-12 text-center btn-row grid__item theme-2">
                     <div class="particles-wrapper">
                         <button id="submitContacto" class="btn-sagaz particles-button">Enviar Mensaje</button>
