@@ -14,6 +14,7 @@ class MainController extends Controller
         $info = request()->all();
 
         $to = [['email' => 'contacto@sagaz.com.ar', 'name' => 'Contacto Sagaz'],
+            ['email' => 'gonzalo@sagaz.com.ar', 'name' => 'Gonzalo Sagaz'],
             ['email' => 'gonzalobusnadiego@gmail.com', 'name' => 'Gonzalo']];
 
         Mail::to('contacto@sagaz.com.ar', 'Nuevo Contacto Sagaz')->send(new Contacto($info));

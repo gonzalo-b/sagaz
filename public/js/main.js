@@ -32,6 +32,7 @@ $(function () {
     if (windowsize < 768) {
         $('.rowSwapImg1').before($('.rowSwapHead1'));
         $('.rowSwapImg2').before($('.rowSwapHead2'));
+        $('.rowSwapImg3').before($('.rowSwapHead3'));
     }
 
 

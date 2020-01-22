@@ -4,6 +4,38 @@
                 <h1> <span class="shine"> Portfolio</span></h1>
         </div>
     </div>
+    <!-- Georgalos -->
+    <div class="row jobRow rowSwapImg3">
+        <div class="col-md-6 jobImgBox">
+            <figure>
+                <img src="/img/georgalos.png">
+            </figure>
+        </div>
+        <div class="col-md-6 rowSwapHead3">
+            <a target="_blank" class="stroke"  href="http://www.georgalos.com.ar">
+                <h2>Georgalos</h2>
+            </a>
+            <p class="subHeader"> Empresa de Golosinas Argentina</p>
+            <p>Rediseñamos el website insitucional, con un diseño alegre y dinamico, dandole vida nuevamente a la marca, y participamos acticamente en el desarrollo digital de la empresa.</p>
+        </div>
+    </div>
+    <!-- CTK -->
+    <div class="row jobRow">
+        <div class="col-md-6 stroke">
+            <a target="_blank" href="http://www.ctkservicios.com.ar">
+                <h2>CTK Servicios</h2>
+            </a>
+            <p class="subHeader">Empresa proveedora de productos y servicios</p>
+            <p>  &#9672; Trabajamos junto a la marca, desarrollando nuevos canales de venta y gestionando campañas publicitarías.</p>
+            <p>  &#9672; Rediseñamos el sitio web, buscando potenciar la respuesta de la audiencia y convirtiendolos en nuevos clientes.</p>
+            <p>  &#9672; Brindamos soporte en linea a cientos de usuarios por día.</p>
+        </div>
+        <div class="col-md-6 jobImgBox">
+            <figure>
+                <img src="/img/ctk.png">
+            </figure>
+        </div>
+    </div>
     <!-- MyBigYellowBus -->
     <div class="row jobRow rowSwapImg1">
         <div class="col-md-6 jobImgBox">
