@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="form-group center capchaBox1" style="text-align: center">
+                <div class="form-group center capchaBox1" style="margin: 0px auto;">
                     <div class="g-recaptcha" data-sitekey="{{env('GOOGLE_CAP_SITE_KEY')}}"></div>
                 </div>
             </div>
