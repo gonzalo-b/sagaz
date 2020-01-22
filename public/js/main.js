@@ -100,7 +100,7 @@ $(function () {
                     type: 'error',
                     title: 'Por favor completa todos los campos',
                     showConfirmButton: false,
-                    timer: 500
+                    timer: 1500
                 })
             }
         }else{
@@ -109,7 +109,7 @@ $(function () {
                 type: 'error',
                 title: 'Por favor la verificación de google',
                 showConfirmButton: false,
-                timer: 500
+                timer: 1500
             })
         }
 
