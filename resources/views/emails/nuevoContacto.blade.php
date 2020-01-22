@@ -43,10 +43,10 @@
 <div class="messageBox">
     <p> Recibimos un nuevo contacto: </p>
     </br>
-    <p> <strong>NOMBRE:</strong> {{$info['firstname'] . ' '. $info['lastname']}} </p>
-    <p> <strong>EMAIL:</strong> {{$info['email']}} </p>
-    <p> <strong>TELEFONO:</strong> {{$info['phone']}} </p>
-    <p> <strong>MENSAJE:</strong> {{$info['mensaje']}} </p>
+    <p> <strong>NOMBRE:</strong> {{$firstname . ' '. $lastname}} </p>
+    <p> <strong>EMAIL:</strong> {{$email}} </p>
+    <p> <strong>TELEFONO:</strong> {{$phone}} </p>
+    <p> <strong>MENSAJE:</strong> {{$mensaje}} </p>
 </div>
 
 </body>
