@@ -74,6 +74,7 @@ $(function () {
         var email = $("input[name=email]").val();
 
         var captcha = grecaptcha.getResponse();
+        console.log(captcha);
 
         if(captcha){
             if(firstname && lastname && email && mensaje){
@@ -97,13 +98,19 @@ $(function () {
                 swal({
                     position: 'top-end',
                     type: 'error',
-                    title: 'Por favor la verificación de google',
+                    title: 'Por favor completa todos los campos',
                     showConfirmButton: false,
                     timer: 500
                 })
             }
         }else{
-            alert('false');
+            swal({
+                position: 'top-end',
+                type: 'error',
+                title: 'Por favor la verificación de google',
+                showConfirmButton: false,
+                timer: 500
+            })
         }
 
 
