@@ -18,12 +18,12 @@ class MainController extends Controller
 //            ['email' => 'gonzalobusnadiego@gmail.com', 'name' => 'Gonzalo']
 //        ];
 
-        $email = "contacto@sagaz.com.ar";
+        $email = "gonzalo@sagaz.com.ar";
         $subject = "Nuevo Contacto Sagaz";
 //        Mail::to(['email' => 'contacto@sagaz.com.ar', 'name' => 'ContactoSagaz'], 'Nuevo Contacto Sagaz')->send(new Contacto($info));
 
         Mail::send('emails.nuevoContacto', $info, function($message) use ($email, $subject, $info) {
-            $message->to($email)->subject($subject);
+            $message->from('contacto@sagaz.com.ar', 'Sagaz') ->to($email)->subject($subject);
         });
 
 
