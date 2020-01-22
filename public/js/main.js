@@ -73,7 +73,7 @@ $(function () {
         var mensaje = $("textarea[name=mensaje]").val();
         var email = $("input[name=email]").val();
 
-        var captcha = captcha: grecaptcha.getResponse();
+        var captcha = grecaptcha.getResponse();
 
         console.log(captcha);
 
