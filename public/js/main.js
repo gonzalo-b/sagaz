@@ -73,6 +73,15 @@ $(function () {
         var mensaje = $("textarea[name=mensaje]").val();
         var email = $("input[name=email]").val();
 
+        var captcha = captcha: grecaptcha.getResponse();
+
+        console.log(captcha);
+
+        if(captcha){
+            alert('true');
+        }else{
+            alert('false');
+        }
         if(firstname && lastname && email && mensaje){
             $.ajax({
                 type:'POST',
