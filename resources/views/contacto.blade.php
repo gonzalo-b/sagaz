@@ -40,7 +40,7 @@
     </div>
     <div id="contactSuccess">
         <h2 class="contactH">Tu mensaje ha sido enviado</h2>
-        <h3>En el transcurso de 2 días habiles nueestro equipo se pondra en contacto.</h3>
+        <h3>En el transcurso de 2 días habiles nuestro equipo se pondra en contacto.</h3>
         <img src="/img/logoBiger.png">
     </div>
 </div>

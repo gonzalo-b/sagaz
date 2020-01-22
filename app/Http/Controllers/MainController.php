@@ -13,12 +13,12 @@ class MainController extends Controller
 
         $info = request()->all();
 
-        $to = [
-            ['email' => 'gonzalo@sagaz.com.ar', 'name' => 'Gonzalo Sagaz'],
-            ['email' => 'gonzalobusnadiego@gmail.com', 'name' => 'Gonzalo']
-        ];
+        //        $to = [
+//            ['email' => 'gonzalo@sagaz.com.ar', 'name' => 'Gonzalo Sagaz'],
+//            ['email' => 'gonzalobusnadiego@gmail.com', 'name' => 'Gonzalo']
+//        ];
 
-        Mail::to($to, 'Nuevo Contacto Sagaz')->send(new Contacto($info));
+        Mail::to('gonzalo@sagaz.com.ar', 'Nuevo Contacto Sagaz')->send(new Contacto($info));
 
         return response()->json(['success'=>'Got Simple Ajax Request.']);
     }
