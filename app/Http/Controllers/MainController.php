@@ -18,7 +18,7 @@ class MainController extends Controller
 //            ['email' => 'gonzalobusnadiego@gmail.com', 'name' => 'Gonzalo']
 //        ];
 
-        Mail::to(['email' => 'gonzalobusnadiego@gmail.com', 'name' => 'Gonzalo Busnadiego'], 'Nuevo Contacto Sagaz')->send(new Contacto($info));
+        Mail::to(['email' => 'contacto@sagaz.com.ar', 'name' => 'Gonzalo Busnadiego'], 'Nuevo Contacto Sagaz')->send(new Contacto($info));
 
         return response()->json(['success'=>'Got Simple Ajax Request.']);
     }
