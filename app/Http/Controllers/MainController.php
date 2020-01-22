@@ -22,7 +22,7 @@ class MainController extends Controller
         $subject = "Nuevo Contacto Sagaz";
 //        Mail::to(['email' => 'contacto@sagaz.com.ar', 'name' => 'ContactoSagaz'], 'Nuevo Contacto Sagaz')->send(new Contacto($info));
 
-        Mail::send('emails.nuevoContacto', $info, function($message) use ($email, $subject) {
+        Mail::send('emails.nuevoContacto', $info, function($message) use ($email, $subject, $info) {
             $message->to($email)->subject($subject);
         });
 
