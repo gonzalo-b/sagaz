@@ -75,33 +75,37 @@ $(function () {
 
         var captcha = grecaptcha.getResponse();
 
-        console.log(captcha);
-
         if(captcha){
-            alert('true');
+            if(firstname && lastname && email && mensaje){
+                $.ajax({
+                    type:'POST',
+                    url:'/contacto',
+                    data:{firstname:firstname, lastname:lastname, mensaje:mensaje, email:email, phone:phone},
+                    success:function(data){
+                        $('#contactForm').hide();
+                        swal({
+                            position: 'top-end',
+                            type: 'success',
+                            title: '¡Tu mensaje ha sido enviado!',
+                            showConfirmButton: false,
+                            timer: 1500
+                        })
+                        $('#contactSuccess').show();
+                    }
+                });
+            }else{
+                swal({
+                    position: 'top-end',
+                    type: 'error',
+                    title: 'Por favor la verificación de google',
+                    showConfirmButton: false,
+                    timer: 500
+                })
+            }
         }else{
             alert('false');
         }
-        if(firstname && lastname && email && mensaje){
-            $.ajax({
-                type:'POST',
-                url:'/contacto',
-                data:{firstname:firstname, lastname:lastname, mensaje:mensaje, email:email, phone:phone},
-                success:function(data){
-                    $('#contactForm').hide();
-                    swal({
-                        position: 'top-end',
-                        type: 'success',
-                        title: '¡Tu mensaje ha sido enviado!',
-                        showConfirmButton: false,
-                        timer: 1500
-                    })
-                    $('#contactSuccess').show();
-                }
-            });
-        }else{
-            console.log('false');
-        }
+
 
     });
 
