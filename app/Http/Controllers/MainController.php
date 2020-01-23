@@ -17,8 +17,9 @@ class MainController extends Controller
 //            ['email' => 'gonzalo@sagaz.com.ar', 'name' => 'Gonzalo Sagaz'],
 //            ['email' => 'gonzalobusnadiego@gmail.com', 'name' => 'Gonzalo']
 //        ];
-
-        $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".env('GOOGLE_CAP_SECRET_KEY')."&response=".$info->captcha."&remoteip=".$_SERVER['REMOTE_ADDR']);
+        $ip = request()->ip();
+        $cap = $info->captcha;
+        $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".env('GOOGLE_CAP_SECRET_KEY')."&response=".$cap."&remoteip=".$ip);
 
         $email = "gonzalo@sagaz.com.ar";
         $subject = "Nuevo Contacto Sagaz";
