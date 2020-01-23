@@ -18,7 +18,7 @@ class MainController extends Controller
 //            ['email' => 'gonzalobusnadiego@gmail.com', 'name' => 'Gonzalo']
 //        ];
         $ip = request()->ip();
-        $cap = $info->captcha;
+        $cap = $info['captcha'];
         $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".env('GOOGLE_CAP_SECRET_KEY')."&response=".$cap."&remoteip=".$ip);
 
         $email = "gonzalo@sagaz.com.ar";
@@ -30,7 +30,7 @@ class MainController extends Controller
         });
 
 
-        return response()->json(['success'=>'Got Simple Ajax Request.']);
+        return response()->json(['success'=> $response]);
     }
 
 }
