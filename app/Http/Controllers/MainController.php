@@ -21,7 +21,7 @@ class MainController extends Controller
         $cap = $info['captcha'];
         $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".env('GOOGLE_CAP_SECRET_KEY')."&response=".$cap."&remoteip=".$ip);
 
-        if($response->success){
+        if($response){
             $email = "gonzalo@sagaz.com.ar";
             $subject = "Nuevo Contacto Sagaz";
 //        Mail::to(['email' => 'contacto@sagaz.com.ar', 'name' => 'ContactoSagaz'], 'Nuevo Contacto Sagaz')->send(new Contacto($info));
