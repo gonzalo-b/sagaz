@@ -80,9 +80,10 @@ $(function () {
             if(firstname && lastname && email && mensaje){
                 $.ajax({
                     type:'POST',
-                    url:'/contacto',
-                    data:{firstname:firstname, lastname:lastname, mensaje:mensaje, email:email, phone:phone},
+                    url:'/contact-email',
+                    data:{firstname:firstname, lastname:lastname, mensaje:mensaje, email:email, phone:phone, captcha:captcha},
                     success:function(data){
+                        console.log(data);
                         $('#contactForm').hide();
                         swal({
                             position: 'top-end',

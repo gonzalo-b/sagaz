@@ -16,5 +16,5 @@ Route::group(['middleware' => ['ForceSSL']], function () {
         return view('home');
     });
 
-    Route::post('contacto', 'MainController@sendMail');
+    Route::post('contact-email', 'MainController@sendMail');
 });
