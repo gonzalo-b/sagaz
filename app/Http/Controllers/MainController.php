@@ -21,16 +21,22 @@ class MainController extends Controller
         $cap = $info['captcha'];
         $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".env('GOOGLE_CAP_SECRET_KEY')."&response=".$cap."&remoteip=".$ip);
 
-        $email = "gonzalo@sagaz.com.ar";
-        $subject = "Nuevo Contacto Sagaz";
+        if($response['success']){
+            $email = "gonzalo@sagaz.com.ar";
+            $subject = "Nuevo Contacto Sagaz";
 //        Mail::to(['email' => 'contacto@sagaz.com.ar', 'name' => 'ContactoSagaz'], 'Nuevo Contacto Sagaz')->send(new Contacto($info));
 
-        Mail::send('emails.nuevoContacto', $info, function($message) use ($email, $subject, $info) {
-            $message->from('contacto@sagaz.com.ar', 'Sagaz') ->to($email)->subject($subject);
-        });
+            Mail::send('emails.nuevoContacto', $info, function($message) use ($email, $subject, $info) {
+                $message->from('contacto@sagaz.com.ar', 'Sagaz') ->to($email)->subject($subject);
+            });
+
+            return response()->json(['success'=> $response]);
+
+        }else{
+            return response()->json(['error'=> $response]);
+        }
 
 
-        return response()->json(['success'=> $response]);
     }
 
 }
