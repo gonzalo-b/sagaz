@@ -15,8 +15,8 @@
             <a target="_blank" class="stroke"  href="http://www.georgalos.com.ar">
                 <h2>Georgalos</h2>
             </a>
-            <p class="subHeader"> Empresa de Golosinas Argentina</p>
-            <p>Rediseñamos el website insitucional, con un diseño alegre y dinamico, dandole vida nuevamente a la marca, y participamos acticamente en el desarrollo digital de la empresa.</p>
+            <p class="subHeader"> Empresa de golosinas argentina</p>
+            <p>Rediseñamos el website insitucional con un diseño alegre y dinámico, dando vida nuevamente a la marca, y participamos activamente en el desarrollo digital de la empresa.</p>
         </div>
     </div>
     <!-- CTK -->
@@ -26,9 +26,9 @@
                 <h2>CTK Servicios</h2>
             </a>
             <p class="subHeader">Empresa proveedora de productos y servicios</p>
-            <p>  &#9672; Trabajamos junto a la marca, desarrollando nuevos canales de venta y gestionando campañas publicitarías.</p>
-            <p>  &#9672; Rediseñamos el sitio web, buscando potenciar la respuesta de la audiencia y convirtiendolos en nuevos clientes.</p>
-            <p>  &#9672; Brindamos soporte en linea a cientos de usuarios por día.</p>
+            <p>  &#9672; Trabajamos junto a la marca, desarrollando nuevos canales de venta y gestionando campañas publicitarias.</p>
+            <p>  &#9672; Rediseñamos el sitio web, buscando potenciar la respuesta de la audiencia y convirtiéndolos en nuevos clientes.</p>
+            <p>  &#9672; Brindamos soporte en línea a cientos de usuarios por día.</p>
         </div>
         <div class="col-md-6 jobImgBox">
             <figure>
@@ -47,8 +47,8 @@
             <a target="_blank" class="stroke"  href="http://www.mybigyellowbus.ca">
                 <h2>My Big Yellow Bus</h2>
             </a>
-            <p class="subHeader"> Empresa Canadiense de Transporte Escolar</p>
-            <p>Desarrollamos un Dashboard con las siguientes funcionalidades: </br>
+            <p class="subHeader"> Empresa canadiense de transporte escolar</p>
+            <p>Desarrollamos un dashboard con las siguientes funcionalidades: </br>
                 &#9672;   Reportar problemas con el servicio.</br>
                 &#9672;   Gestionar unidades en operación.</br>
                 &#9672;   Creación de formularios a medida para cuantificar y evaluar la satisfacción de los clientes.</br>
@@ -83,9 +83,9 @@
             <a target="_blank" class="stroke" href="http://www.euroconfortcalzado.com.ar">
                 <h2>Euro Confort Calzado</h2>
             </a>
-            <p class="subHeader">Empresa Argentina de Calzado Femenino</p>
+            <p class="subHeader">Empresa argentina de calzado femenino</p>
             <p>Rediseñamos por completo la tienda online de Euro Confort Calzado.  </p>
-            <p>Implementamos un direseño 100% responsive para garantizar una excelencia experiencia en telefonos móbiles.</p>
+            <p>Implementamos un diseño 100% responsive para garantizar excelencia en telefonos móbiles.</p>
         </div>
     </div>
     <div class="row callToAction">

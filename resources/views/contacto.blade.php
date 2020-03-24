@@ -3,7 +3,7 @@
 </div>
 <div id="contacto" class="form-section">
     <div class="form-container center container" id="contactForm">
-        <h2 class="contactH">¡Contactános!</h2>
+        <h2 class="contactH">¡Contactanos!</h2>
         <div class="clearfix"></div>
         <form name="contact-form" id="contact-form" method="post" action="{{url('contacto')}}" enctype="multipart/form-data">
             @csrf
